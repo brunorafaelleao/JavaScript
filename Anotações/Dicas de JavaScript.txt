@@ -1,0 +1,4 @@
+1) Editor de códigos
+-> Para trabalhar com a linguagem programação JavaScript usaremos o
+VS CODE e o NODE.JS. O Vs Code para editar os códigos e o Node para executar
+
