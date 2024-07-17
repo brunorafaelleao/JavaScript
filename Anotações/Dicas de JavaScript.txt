@@ -2,3 +2,9 @@
 -> Para trabalhar com a linguagem programação JavaScript usaremos o
 VS CODE e o NODE.JS. O Vs Code para editar os códigos e o Node para executar
 
+2) Variáveis
+-> As variáveis devem ter seu nome sem caracteres especiais, exceto "$" cifrão ou
+underline "_".
+-> As variáveis não podem ter seus identificadores começando com número, mas elas
+podem ter número ao longo do nome.
+
