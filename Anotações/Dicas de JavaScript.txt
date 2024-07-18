@@ -61,3 +61,13 @@ const y = false;
 && = AND (e) para operações em que as duas condições são simultaneamentes verdadeiras
 || = OR(ou) para operações em que pelo menos uma das condições seja verdadeira
 ! = NOT(não, inverso) para operações em que queremos o inverso do valor booleano
+
+8) Operadores de comparação
+-> Para comparar se um valor é igual a outro: ===
+-> Para comparar se um valor é diferente de outro: !==
+-> Para comparar se um valor é maior ou igual: >=
+-> Para comparar se um valor é menor ou igual: <=
+-> Menor que: <
+-> Maior que: >
+Obs: diferença entre === e == é a restrição, pois o === faz uma comparação rígida e restrita
+que analisa o dado e o tipo de dado.
