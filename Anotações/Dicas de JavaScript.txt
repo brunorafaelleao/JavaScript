@@ -8,3 +8,56 @@ underline "_".
 -> As variáveis não podem ter seus identificadores começando com número, mas elas
 podem ter número ao longo do nome.
 
+3) Operadores
+-> Para trabalhar com operações:
++ Adição
+- Subtração
+* Multiplicação
+/ Divisão
+** Exponenciação
+% Resto da divisão (modulus)
+++ incremento
+-- decremento
+-> É possível fazer junções (concatenações de variáveis usando +)
+ex:
+const texto1 = 'Olá';
+const texto2 = 'Mundo';
+const textofinal = texto1 + texto2;
+console.log(textofinal);
+
+4) Para declarar variáveis constantes e mutáveis e exibir algo no interpretador
+-> Constantes: const =
+-> Mutáveis: let =
+-> para exibir: console.log()
+
+5) Atalho para formatação Prettier:
+-> alt + shift+ F
+
+6) Tipos de dados:
+-> String = deve ser declarado entre aspas duplas ou simples, mas tem o uso da crase.
+No caso da crase, vira uma string template que permite usarmos expressõe embutidas em si
+ex:
+const texto1 = 'aqui tem uma string normal';
+const texto2 = "Essa tbm é uma string normal";
+const numero = 3142;
+const stringTemplate = `o numero que decidi registrar é ${numero}´;
+
+-> Number = é o tipo de dado que representa informaçõe numéricas (inteiros positivos ou negativos, decimais)
+ex:
+const num1 = 27;
+const num2 = 23.25;
+const num3 = -40;
+const total = num1 + num2 + num3;
+
+console.log(total);
+//resultado é 10.25
+
+7) Tipo Booleano
+-> são valores do tipo true ou false
+ex:
+const x = true;
+const y = false;
+-> Operadores booleanos
+&& = AND (e) para operações em que as duas condições são simultaneamentes verdadeiras
+|| = OR(ou) para operações em que pelo menos uma das condições seja verdadeira
+! = NOT(não, inverso) para operações em que queremos o inverso do valor booleano
