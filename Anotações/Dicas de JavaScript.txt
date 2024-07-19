@@ -84,3 +84,6 @@ const documentoIdentidade = {
   idade: 34,
 };
 -> Para acessar um dado do Object = console.log(documentoIdentidade.empresa); ou console.log(documentoIdentidade["empresa"]);
+
+10) Tipos Referência (Array)
+-> O Array é como uma lista de informações, lista de valores
