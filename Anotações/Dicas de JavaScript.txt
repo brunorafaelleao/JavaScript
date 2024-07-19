@@ -71,3 +71,16 @@ const y = false;
 -> Maior que: >
 Obs: diferença entre === e == é a restrição, pois o === faz uma comparação rígida e restrita
 que analisa o dado e o tipo de dado.
+
+9) Tipos Referência (Object)
+-> Object (Objeto) = É um documento que tem campos e valores associados. É uma única variável que contém
+todo um conjunto de informações sobre um elemento.
+exemplo de sua estrutura:
+const documentoIdentidade = {
+  nome: "Bruno",
+  sobrenome: "Leão",
+  cpf: "944.965.012-87",
+  empresa: "SEMSA",
+  idade: 34,
+};
+-> Para acessar um dado do Object = console.log(documentoIdentidade.empresa); ou console.log(documentoIdentidade["empresa"]);
