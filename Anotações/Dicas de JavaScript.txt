@@ -97,3 +97,30 @@ console.log(`O valor investido no mês de janeiro é: ${investimentoMensal[0]}`)
 //Para acessar um valor em um array fazemos a busca usando: investimentoMensal[0] nome do array seguido do número do array dentro de colchetes
 
 //Se for pra exibir todos os valores do array: console.log(investimentoMensal);
+
+11) Inserir valor em um objeto ou array.
+ex: 
+let musica = {
+  nome: "Let it be",
+  artista: "The Beatles",
+  album: "Let it be",
+};
+
+let listaDeBandas = [
+  "Beatles",
+  "Rolling Stones",
+  "Led Zeppelin",
+  "Cassia Eller",
+  "Chico Buarque",
+];
+
+//para inserir um novo elemento no array. Inserir Skank em lista de bandas
+//console.log(listaDeBandas);
+//listaDeBandas[5] = "Skank";
+//console.log(listaDeBandas);
+
+//para inserir um novo elemento no objeto. Inserir o ano do álbum.
+console.log(musica);
+musica.ano = 1969;
+console.log(musica);
+
