@@ -133,4 +133,12 @@ function saudacao (nome){
 }
 saudacao("Bruno");
 //Ao fazer isso, o sistema vai retornar o que foi declarado dentro da função
+obs: Uma função precisa ser inicada com a palavra function, seguida do nome da função, parâmetros e instrução.
+function = palava chave ou palavra reservada para declarar uma função
+saudacao = nome da função e não pode ser uma palava reservada
+(nome) = parametro
+{console.log(`Olá ${nome}, bem vindo ao nosso site`);} = instrução da função
+Quando chamamos a função usamos os argumentos que substituem o parametro
+
+
 
