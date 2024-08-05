@@ -125,11 +125,12 @@ musica.ano = 1969;
 console.log(musica);
 
 12) Funções
--> Blocos de códigos que realizam tarefas específicas
+-> Blocos de códigos que realizam tarefas específicas. São também conjunstos de instruções
 -> A palavra chave para uma função é "function"
 ex: Criar uma função que exibe uma saudação.
 function saudacao (nome){
   console.log(`Olá ${nome}, bem vindo ao nosso site`);
 }
 saudacao("Bruno");
-//Ao fazer isso, o sistema vai retornar o que foi declarado dentro da função i 
+//Ao fazer isso, o sistema vai retornar o que foi declarado dentro da função
+
