@@ -25,7 +25,7 @@ resultado do cálculo).
 ### 3 - Escreva uma função que recebe do usuário um valor de temperatura em graus Celsius e escreve na
 
 tela o texto:
-a temperatura correspondente em Farenheit é de xºF (sendo x o resultado da conversão.)
+a temperatura correspondente em Farenheit é de x°F (sendo x o resultado da conversão.)
 Obs: temperatura em Farenheit = (9/5)\*( temperatura em Celsius ) + 32
 
 ### 4 - Quando estava passeando em Nova York, Bruno se surpreendeu com uma realidade diferente da
