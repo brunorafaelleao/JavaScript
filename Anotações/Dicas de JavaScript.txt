@@ -140,5 +140,11 @@ saudacao = nome da função e não pode ser uma palava reservada
 {console.log(`Olá ${nome}, bem vindo ao nosso site`);} = instrução da função
 Quando chamamos a função usamos os argumentos que substituem o parametro
 
+13) Para arredondar um valor double/float/decimal em JavaScript podemos usar o 
+método toFixed().
+ex:
+${valorfinal.toFixed(2)}
+//Na expressão anterior  dizemos que queremos arredondar/fixar o valor final com duas casas decimais.
+
 
 
