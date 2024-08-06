@@ -185,6 +185,32 @@ console.log(b.toUpperCase()); //imprime b em maiúsculo
 console.log(b.toLowerCase()); //imprime b em minúsculo
 console.log(b.split(" ")); //divide a string em um array de strings
 
+16) Métodos em Arrays
+-> filter - método responsável por gerar um novo array resultado de um filtro estabelecido pelo programador
+ex:
+const listaNotas = [
+  { nome: "Daniel", nota: 5 },
+  { nome: "Pedro", nota: 15 },
+  { nome: "Lucas", nota: 12 },
+  { nome: "Messi", nota: 0 },
+  { nome: "CR7", nota: 0 },
+];
+const alunosAprovados = listaNotas.filter(function (aluno) {
+  return aluno.nota >= 17;
+});
+console.log(alunosAprovados);
+
+-> find - método responsável por encontrar um elemento dentro de um array
+const alunozerado = listaNotas.find(function (aluno) {
+return aluno.nota === 0;
+ });
+
+ -> map - método responsável por gerar um novo array resultado de uma transformação estabelecida pelo programador
+ const listaAlunosAprovados = alunosAprovados.map(function (aluno) {
+  return aluno.nome;
+});
+console.log(listaAlunosAprovados);
+
 
 
 
