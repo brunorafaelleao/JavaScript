@@ -141,10 +141,50 @@ saudacao = nome da função e não pode ser uma palava reservada
 Quando chamamos a função usamos os argumentos que substituem o parametro
 
 13) Para arredondar um valor double/float/decimal em JavaScript podemos usar o 
-método toFixed().
+-> método toFixed()
 ex:
 ${valorfinal.toFixed(2)}
 //Na expressão anterior  dizemos que queremos arredondar/fixar o valor final com duas casas decimais.
+OBS: Esse método transforma o valor de number para string. Caso esse valor não seja usado novamente pode usar.
+
+
+14) Função/Método dentro de um objeto
+-> É possível inserir uma função (método) dentro de um objeto e assim chamar essa função fora do objeto.
+ex: Criar uma função dentro de um objeto casa cujo os parametros serão valores do próprio objeto. 
+Para isso dentro do cálculo usaremos "this"
+let casa = {
+  //tamanho dos comodos é em metros quadrados
+  cor: "#fff",
+  sala: 15,
+  cozinha: 10,
+  banheiro: 8,
+  quarto: 20,
+  areaTotaldaCasa: function () {
+    const tamanhoTotal = this.sala + this.cozinha + this.banheiro + this.quarto;
+    console.log(`O tamanho total da casa é de ${tamanhoTotal}m²`);
+    return tamanhoTotal;
+  },
+};
+
+casa.areaTotaldaCasa();
+
+15) Tipos de métodos:
+ex:
+let a = 2.0000001;
+
+console.log(a); //imprime a
+console.log(a.toFixed(2)); //imprime com dois valores após a vírgula porém vira uma string
+console.log(a.toString()); //imprime a como uma string
+
+let b = "texto qualquer";
+
+console.log(b); //imprime b
+console.log(b.length); //imprime o comprimento de b
+console.log(b.concat(" novo")); //concatena com a string passada dentro do parenteses concat(" novo")
+console.log(b.toUpperCase()); //imprime b em maiúsculo
+console.log(b.toLowerCase()); //imprime b em minúsculo
+console.log(b.split(" ")); //divide a string em um array de strings
+
 
 
 
