@@ -46,7 +46,15 @@ se a quantidade é suficiente ou não. Exemplo de Saída: “A quantidade no est
 // }
 /*Exercício 5: Você tem três variáveis: uma que representa se um produto está disponível
 como um booleano (true), outra que representa a quantidade de produtos no estoque (10), e
-uma terceira que representa a quantidade mínima necessária de produtos no estoque (15). Verifique se
-o produto está disponível e se a quantidade é suficiente (igual ou maior que a quantidade mínima necessária)
+uma terceira que representa a quantidade mínima necessária de produtos no estoque (15).
+Verifique se o produto está disponível e se a quantidade é suficiente (igual ou maior que a quantidade mínima necessária)
 usando operadores lógicos NOT e AND. Imprima no console se o produto está disponível e tem a quantidade suficiente.
 Exemplo de Saída: “'O produto está disponível e tem quantidade suficiente: false” e “'O produto está indisponível: false”*/
+let prodDisp = true;
+let qtdProdutos = 10;
+let qtdMinima = 15;
+
+console.log(
+  `O Produto está disponível e tem quantidade suficiente?: ${prodDisp && qtdProdutos >= qtdMinima}`
+);
+console.log(`O produto está indisponível? ${!prodDisp}`);
