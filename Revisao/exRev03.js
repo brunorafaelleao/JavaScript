@@ -1,12 +1,29 @@
-//ex03
-//Crie um objeto chamado produto com as propriedades nome, preco e quantidade.
-let produto = {
-  nome: "Televisão",
-  preco: "1500",
-  qtde: 10,
+//Ex04
+//Crie um objeto chamado venda com as propriedades cliente, produto e valor.
+let venda = {
+  cliente: "Chiara",
+  produto: "Mamadeira",
+  valor: 10,
 };
-//Acesse e imprima o nome do produto.
-console.log(produto.nome);
+//Adicione a propriedade data ao objeto.
+venda.dataCompra = "13/01/2025";
+console.log(venda);
+//Remova a propriedade produto e imprima o objeto atualizado.
+
+
+
+// //ex03
+// //Crie um objeto chamado produto com as propriedades nome, preco e quantidade.
+// let produto = {
+//   nome: "Televisão",
+//   preco: "1500",
+//   qtde: 10,
+// };
+// //Acesse e imprima o nome do produto.
+// console.log("Esse produto é: "+produto.nome);
+// //Modifique o preço do produto e imprima o objeto atualizado.
+// produto.preco = 2000;
+// console.log(produto);
 
 // //ex02
 // // Crie um array chamado clientes contendo três nomes de clientes.
