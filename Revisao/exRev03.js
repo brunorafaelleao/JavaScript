@@ -9,8 +9,8 @@ let venda = {
 venda.dataCompra = "13/01/2025";
 console.log(venda);
 //Remova a propriedade produto e imprima o objeto atualizado.
-
-
+delete venda.produto;
+console.log(venda);
 
 // //ex03
 // //Crie um objeto chamado produto com as propriedades nome, preco e quantidade.
