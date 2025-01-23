@@ -35,8 +35,19 @@ console.log(lista.includes("Lápis") && lista.includes("Agenda"));
 /*Exercício 4: Dado o array [2, 5, 8, 1], verifique se pelo menos um dos números é maior
 que 7.
 Exemplo de Saída: // true
+
+let numeros = [2, 5, 8, 1];
+valida = numeros.some(num => num > 7);
+console.log(valida);
+
 */
 
 /*Exercício 5: Dado o array [4, 6, 8, 2], verifique se todos os números são maiores que 3.
 Exemplo de Saída: // false
+
+let numeros = [4, 6, 8, 2];
+valida = numeros.every((num) => num > 3);
+console.log(valida);
+
+
 */
