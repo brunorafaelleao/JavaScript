@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Eventos em elementos HTML</h2>
+    <!-- aqui tem um parágrafo que muda de cor com evento html: -->
+    <!-- <p
+      onmouseover="this.style.color='red';"
+      onmouseout="this.style.color='black';"
+    >
+      Passe o mouse aqui para mudar a cor do texto.
+    </p> -->
+    <!-- aqui tem um parágrafo que muda de cor com javascript -->
+    <p
+      onmouseover="mudarCor(this, 'green');"
+      onmouseout="mudarCor(this,'black')"
+    >
+      Passe o mouse aqui para mudar a cor do texto.
+    </p>
+    <!-- esse botão tem um evento HTML: -->
+    <!-- <button onclick="alert('Botão clicado!')">Clique aqui</button> -->
+    <!-- esse botão tem um evento javascript: -->
+    <button onclick="alertaBotao()">Clique aqui</button>
+    <!-- input só com evento HTML -->
+    <!-- <input
+      type="text"
+      placeholder="Digite aqui"
+      onfocus="this.placeholder='Campo em foco';"
+      onblur="this.placeholder='Digite aqui';"
+    /> -->
+    <!-- input com evento javascript -->
+    <input
+      type="text"
+      placeholder="Digite aqui"
+      onfocus="campoFoco(this);"
+      onblur="campoSemFoco(this);"
+    />
+    <!-- mudar imagem com evento HTML -->
+    <!-- <img
+      src="./assets/imagem1.png"
+      alt="Imagem misteriosa"
+      onmouseover="this.src='./assets/imagem2.png';"
+      onmouseout="this.src='./assets/imagem1.png';"
+    /> -->
+    <!-- mudar imagem com JS: -->
+    <img
+      src="./assets/imagem1.png"
+      alt="Imagem misteriosa"
+      onmouseover="trocarImagem(this, './assets/imagem2.png');"
+      onmouseout="trocarImagem(this, './assets/imagem1.png');"
+    />
+
+    <script src="script.js"></script>
+  </body>
+</html>
